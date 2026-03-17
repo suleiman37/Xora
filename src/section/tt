@@ -1,0 +1,15 @@
+<div className="mb-8">
+
+                  {monthly ? (
+                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">
+                      ${pln.priceMonthly}
+                      <span className="text-lg ml-2">/M</span>
+                    </span>
+                  ) : (
+                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">
+                      ${pln.priceYearly}
+                      <span className="text-lg ml-2">/Y</span>
+                    </span>
+                  )}
+
+                </div>
