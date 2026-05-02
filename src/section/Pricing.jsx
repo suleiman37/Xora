@@ -109,22 +109,19 @@ const Pricing = () => {
                       <div className="mb-8">
 
                   {monthly ? (
-                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">
-                      ${plan.priceMonthly}
-                      <span className="text-lg ml-2">/M</span>
+                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">{
+                      `${plan.priceMonthly}/M`}
+                      <span className="text-lg ml-2"></span>
                     </span>
                   ) : (
-                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">
-                      ${plan.priceYearly}
-                      <span className="text-lg ml-2">/Y</span>
+                    <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">{
+                      `${plan.priceYearly}/Y`}
+                      <span className="text-lg ml-2"></span>
                     </span>
                   )}
 
                 </div>
 
-                    </div>
-                    <div className="small-1 relative top-3 ml-1 uppercase">
-                      / mo
                     </div>
                   </div>
                 </div>
